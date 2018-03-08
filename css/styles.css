@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+/*
+over-ride "Weak" message, show font in dark grey
+*/
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+    .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+body {
+  background: #3c8dbc; /* Old browsers */
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.login-form {
+  margin-top: 60px;
+}
+.register-form {
+  margin-top: 60px;
+}
+form[role=login] {
+  color: #5d5d5d;
+  background: #f2f2f2;
+  padding: 26px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+  form[role=login] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  form[role=login] > div {
+    text-align: center;
+  }
+form[role=register] {
+  color: #5d5d5d;
+  background: #f2f2f2;
+  padding: 26px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+  form[role=register] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  form[role=register] > div {
+    text-align: center;
+  }
+.form-links {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 50px;
+}
+.form-links a {
+  color: #fff;
+}
+.input-error {
+  border-color: red;
+}
+
+
+
+.success-form {
+  color: #5d5d5d;
+  background: #f2f2f2;
+  padding: 26px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+ .success-form  img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+ .success-form  > div {
+    text-align: center;
+  }

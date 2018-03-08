@@ -1,0 +1,8 @@
+{"erro":"Desculpe isso é uma biblioteca da api, não pode ser acessada diretamente!", "num":12322}
+{"erro":"Contate o administrador pelo email: '.$admin_mail.' informando erro 12442", "num":12442}
+("erro":"Nenhum estilo encontrado!", "num":12447}
+{"erro":"Você não selecionou uma ação!", "num":13332}
+{"erro":"Essa ação não existe!", "num":13333}
+{"erro":"Level invalido!", "num":13337}
+'{"erro":"Id invalido!", "num":13338}'
+num: 1254 Erro na query
